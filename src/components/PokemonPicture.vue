@@ -8,8 +8,8 @@
 <script>
 export default {
     props:{
-        pokemonId: {type: Number, requered: true},
-        showPokemon: {type: Boolean, requered: true, default: false}
+        pokemonId: {type: Number, required: true},
+        showPokemon: {type: Boolean, required: true, default: false}
     },
     computed: {
         imgSrc(){
